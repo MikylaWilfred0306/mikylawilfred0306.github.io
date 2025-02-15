@@ -1,14 +1,15 @@
 {
-  "homepage": "https://mikylawilfred0306.github.io/home",
+  "homepage": "https://mikylawilfred0306.github.io/",
   "name": "home",
   "version": "0.1.0",
   "private": true,
+
   "scripts": {
+    "start": "next start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "next dev --turbopack",
     "build": "next build",
-    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
